@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Stephen Fendley</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/b406eb35c4.js"></script>
+
+  </head>
+
+  <body id="bs-custom" data-target=".navbar" data-spy="scroll" data-offset="200">
+
+  <!--Navigation. Relies on bootstrap CSS -->
+  <nav class="navbar navbar-inverse navbar-fixed-top ">
+    <div class="container-fluid nav-custom">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Stephen Fendley</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#portfolio">Portfolio</a></li>
+          <li class="active"><a href="#about">About</a></li>
+          <li class="active"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container header">
+      <div class="row">
+        <div class="col-lg-12">
+          <img id="img-port" class="img-responsive img-header center-block" src="img/portrait-outline-orange.png" alt>
+          <div class="intro-text">
+            <h1>Stephen Fendley</h1>
+            <h3>Developer</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container portfolio">
+      <div class="row">
+        <div class="col-lg-12 port-header-text">
+          <h1>Portfolio of Work</h1>
+        </div>
+      </div>
+      <div class="row row-pad">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#modal-dressage" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <img src="img/dressage3-4.png" class="img-responsive modal-img img-rounded" alt> 
+                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#modal-johnny" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <img src="img/johnny3-4.png" class="img-responsive modal-img img-rounded" alt> 
+                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#modal-proposal" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <img src="img/proposal3-4.png" class="img-responsive modal-img img-rounded" alt> 
+                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row row-pad">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#modal-bpc" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <img src="img/bpc3-4.png" class="img-responsive modal-img img-rounded" alt> 
+                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#modal-other" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <img src="img/coding-ps.png" class="img-responsive modal-img img-rounded" alt> 
+                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modal Dressage -->
+  <div class="modal fade" id="modal-dressage">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h1 class="modal-title">Web Development:</h4>
+          <h3><a href="http://www.thedressageponystore.com">The Dressage Pony Store </a></h3>
+        </div> 
+        <div class="modal-body">
+          <img src="img/dressage3-4.png" class="img-responsive" alt>
+          <p>Did all front end development for Elemental-Imaging. Designer provided PSDs of what the site should look like. It was my responsibility to use the shopify template to match this as close as possible. Then I customized the rest on the backend working with the CSS (Liquid). Was able to succesfully work with the advanced CSS to match the PSDs provided exactly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Johnny -->
+  <div class="modal fade" id="modal-johnny">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h1 class="modal-title">Web Development:</h4>
+          <h3><a href="http://www.johnnyking.com">JohnnyKing.com</a></h3>
+        </div> 
+        <div class="modal-body">
+          <img src="img/johnny3-4.png" class="img-responsive" alt>
+          <p>Edited front page header to have better lay out for Elemental Imaging's client, Johnny King. Set up and configured new email client for the newsletter signup. Updated the "About Johnny" section to match the rest of the site. Worked with wordpress CMS and edited CSS.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Proposal -->
+  <div class="modal fade" id="modal-proposal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h1 class="modal-title">Web Development:</h4>
+          <h3>Client Proposals for Elemental-Imaging</h3>
+        </div> 
+        <div class="modal-body">
+              <img src="img/proposal3-4.png" class="img-responsive thumbnail" alt>
+              <img src="img/summary.png" class="img-responsive thumbnail" alt>
+              <img src="img/dropdown.png" class="img-responsive thumbnail" alt>
+              <img src="img/timeline.png" class="img-responsive thumbnail" alt>
+              <p>Translated Elemental-Imaging's client proposals into web-friendly format to be available on company's internal site. Added navigation features. This was built entirely from the ground up to match picture perfect what was already created with word processing productivity tools.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal BPC -->
+  <div class="modal fade" id="modal-bpc">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h1 class="modal-title">Back-end Development:</h4>
+          <h3><a href="http://www.bpcinc.com">BPC</a></h3>
+        </div> 
+        <div class="modal-body">
+          <img src="img/bpc3-4.png" class="img-responsive" alt>
+          <p>Did numerous changes in the back-end of this financial firms internal site at the direction of Elemental-Imaging's head developer. Worked with ColdFusion, JavaScript and JQuery. I made the JavaScript unobtrusive. This allowed for better load times and content management. Worked with JQuery validation methods to improve functionality of the site and consolidate coding. Used advanced regex techniques to make sweeping updates and changes across the system. Updated the ColdFusion Arrays and Structs to pull data properly in places.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Other -->
+   <div class="modal fade" id="modal-other">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h1 class="modal-title">Other Projects and Skills:</h4>
+        </div> 
+        <div class="modal-body">
+          <h3>Markdown | Gollum | CSS</h3>
+          <p>I am currently making changes to Gollum, a Git-powered wiki, to help improve navigation and user experience. Specifically I am working to change the Table of Conent generator to produce a user friendly scroll spy based off of Bootstrap CSS. When the user enters the "[[_TOC_]]" in markdown on the wiki it will produce a table of conentents off to the left of the page with scroll-spy capability. This project is still ongoing.</p>
+          <br>
+          <h3>Google Analytics | SEO</h3>
+          <p>Worked with google analytics to show client specific entries being entered into the search field. Also have implemented SEO techniques for a local church in town, <a href="www.thesummitfargo.com">The Summit Church</a>. This included using keywords and connecting social media to the website.</p>
+          <br>
+          <h3>Website: <a href="http:www.thesummitfargo.com">The Summit Church</a></h3>
+          <p>While other professionals have done work on the site, inclduing help with its initial setup. This was one of my first ever projects. I am responsibile for 90% plus of the work on the site. It uses a CMS (SquareSpace), but there is a decent ammount of customization outside of this as well.</p>.
+          <br>
+          <h3>My Portfolio</h3>
+          <p>I built this site as well from the ground up. It useses my own customizations alongside Bootstrap CSS. It also uses a little bit of JavaScript that I modified.</p>
+          <br>
+          <h3>Tools and Skills</h3>
+          <p>I have worked with Adobe products and am proficient with Photoshop. I have worked heavily from the command prompt and TextMate2. Currently I use VisualStudio Code. I also work with GitHub repositories on a regular basis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container about"
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>About</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 about-paragraph about-nerdy">
+          <div class="glyph-computer">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+          </div>
+          <br>
+          <p>I grew up in a nerdy family playing with Commodore 64s and Amigas. I became the de facto I.T. pro for a medium sized office at one point in my career. Then made the jump to developer as a contractor working with Elemental Imaging. I am new in many regards but very comfortable as a front-end dev and learning back-end coding. I learn fast and love a challenge.</p>
+        </div>
+        <div class="col-sm-6 about-paragraph about-more">
+          <div class="glyph-family">
+            <i class="fa fa-bicycle" aria-hidden="true"></i>
+          </div>
+          <br>
+          <p>I am also a husband to a lovely lady and a father of two precious, little girls. We love living here in Fargo enjoying any time we can get outside (bike rides, parks, sledding), surviving the winters <a href="http://www.thesummitfargo.com/iceman2016/">(sometimes litterally!)</a> and serving the community with our church. </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container contact"
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Contact</h1>
+          <h3>Located in Fargo, ND</h3>
+          <div class="contact-text">
+            <h4>phone: (970) 449-3715</h3>
+            <h4>email: <a href="mailto:stephen.fendley@outlook.com">stephen.fendley@outlook.com</a></h3>
+            <h4>social media: <a href="https://www.linkedin.com/in/stephenfendley">LinkedIn</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      var $cog = $('#img-port'),
+      $body = $(document.body),
+      bodyHeight = $body.height();
+
+      $(window).scroll(function () {
+        $cog.css({
+          'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 720) + 'deg)'
+        });
+      });
+    </script>
+
+  </body>
+</html>

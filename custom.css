@@ -1,0 +1,186 @@
+body#bs-custom {
+    text-align: center;
+    position: relative;
+}
+
+#bs-custom .nav-custom {
+    padding-left: 75px;
+}
+
+#bs-custom div.intro-text h1 {
+    font-size: 60px;
+}
+
+#bs-custom div.intro-text h3 {
+    font-size: 30px;
+}
+
+#bs-custom .container {
+    display: block;
+    margin: auto;
+}
+
+#bs-custom div.header {
+    padding-bottom: 0px;
+}
+
+#bs-custom .img-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#bs-custom header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #0375B4;
+    color: white;
+}
+
+#bs-custom div.portfolio {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#bs-custom #about {
+    background-color: #EFEFEF;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#bs-custom div.about-paragraph p {
+    padding: 25px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#bs-custom div.glyph-computer {
+    margin: auto;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    background-color: #FFCE00;
+}
+
+#bs-custom div.glyph-family {
+    margin: auto;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    background-color: #0375B4;
+}
+
+#bs-custom div i {
+    padding-top: 25%;
+}
+
+#bs-custom #contact {
+    background-color: #262228;
+    color: white;
+}
+
+#bs-custom div.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#bs-custom div.contact-text {
+    text-align: left;
+    margin: auto;
+    position: relative;
+    max-width: 350px;
+    padding-top: 25px;
+}
+
+#bs-custom a:link {
+    color: #0375B4;
+    -webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
+    transition: color 2s;
+}
+
+#bs-custom a:hover {
+    color: #FFCE00;
+}
+
+/* portfolio */
+
+#bs-custom #portfolio .portfolio .port-header-text h1 {
+    padding-bottom: 25px;
+}
+
+#bs-custom div.row-pad {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    #bs-custom div.row-pad .col-sm-4 {
+    padding: 15px;
+}
+}
+
+#bs-custom div.caption {
+    display: block;
+  position: relative;
+  margin: 0 auto;
+
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+
+#bs-custom img.modal-img {
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+    z-index: 1;
+     transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  box-shadow: 1px 1px 5px;
+}
+
+#bs-custom img.modal-img:hover {
+    opacity: .5;
+    z-index: -9;
+}
+
+#bs-custom i.fa-search-plus {
+    position: absolute;
+    top: 20px;
+    right: 125px;
+    z-index: -1;
+}
+
+#bs-custom a.portfolio-link:hover {
+    color: #0375B4;
+}
+
+/*portfolio modals*/
+
+#bs-custom .modal p {
+    font-size: 18px;
+    padding: 25px;
+}
+
+#bs-custom .modal img {
+    position: relative;
+    margin: auto;
+}
+
+#bs-custom .modal-dialog p {
+    text-align: left;
+}
