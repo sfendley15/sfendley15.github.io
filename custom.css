@@ -184,3 +184,19 @@ body#bs-custom {
 #bs-custom .modal-dialog p {
     text-align: left;
 }
+
+#bs-custom .nav a:link {
+    color: white;
+}
+
+#bs-custom .navbar-brand a:link {
+    color: white;
+}
+
+#bs-custom .nav a:visited {
+    color: white;
+}
+
+#bs-custom .navbar-brand a:visited {
+    color: white;
+}
