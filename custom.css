@@ -190,13 +190,22 @@ body#bs-custom {
 }
 
 #bs-custom .navbar-brand a:link {
-    color: white;
+    color: #9D9D9D;
 }
 
+#bs-custom .nav a:hover {
+    color: #FFCE00;
+}
+
+#bs-custom .navbar-brand a:hover {
+    color: #FFCE00;
+}
+
+
 #bs-custom .nav a:visited {
-    color: white;
+    color: grey;
 }
 
 #bs-custom .navbar-brand a:visited {
-    color: white;
+    color: #9D9D9D;
 }
