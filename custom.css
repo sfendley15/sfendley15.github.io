@@ -1,6 +1,7 @@
 body#bs-custom {
     text-align: center;
     position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #bs-custom .nav-custom {
