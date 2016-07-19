@@ -190,7 +190,7 @@ body#bs-custom {
     color: white;
 }
 
-#bs-custom .navbar-brand a:link {
+#bs-custom a.navbar-brand:link {
     color: #9D9D9D;
 }
 
