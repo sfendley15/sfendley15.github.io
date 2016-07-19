@@ -192,13 +192,15 @@ body#bs-custom {
 
 #bs-custom a.navbar-brand:link {
     color: #9D9D9D;
+     -webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
+    transition: color 2s;
 }
 
 #bs-custom .nav a:hover {
     color: #FFCE00;
 }
 
-#bs-custom .navbar-brand a:hover {
+#bs-custom a.navbar-brand:hover {
     color: #FFCE00;
 }
 
